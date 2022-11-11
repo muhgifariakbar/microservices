@@ -1,0 +1,170 @@
+{
+  "employee": [
+    {
+      "name": "Flore",
+      "salary": "430",
+      "currency": "USD",
+      "on_contract": true,
+      "department": "Engineering",
+      "sub_department": "Product"
+    },
+    {
+      "name": "Larissa",
+      "salary": "805",
+      "currency": "USD",
+      "on_contract": false,
+      "department": "Engineering",
+      "sub_department": "Devops"
+    },
+    {
+      "name": "Cicily",
+      "salary": "4",
+      "currency": "USD",
+      "on_contract": true,
+      "department": "Engineering",
+      "sub_department": "QA"
+    },
+    {
+      "name": "Jaime",
+      "salary": "6408",
+      "currency": "USD",
+      "on_contract": true,
+      "department": "Engineering",
+      "sub_department": "Product"
+    },
+    {
+      "name": "Cymbre",
+      "salary": "5",
+      "currency": "USD",
+      "on_contract": true,
+      "department": "Engineering",
+      "sub_department": "Product"
+    },
+    {
+      "name": "Carey",
+      "salary": "4",
+      "currency": "USD",
+      "on_contract": true,
+      "department": "Engineering",
+      "sub_department": "Product"
+    },
+    {
+      "name": "Annamaria",
+      "salary": "5",
+      "currency": "USD",
+      "on_contract": false,
+      "department": "Engineering",
+      "sub_department": "Product"
+    },
+    {
+      "name": "Olivie",
+      "salary": "91966",
+      "currency": "USD",
+      "on_contract": true,
+      "department": "Engineering",
+      "sub_department": "Devops"
+    },
+    {
+      "name": "Aubrie",
+      "salary": "05935",
+      "currency": "USD",
+      "on_contract": true,
+      "department": "Engineering",
+      "sub_department": "Product"
+    },
+    {
+      "name": "Stacia",
+      "salary": "109",
+      "currency": "USD",
+      "on_contract": true,
+      "department": "Engineering",
+      "sub_department": "Devops"
+    },
+    {
+      "name": "Danica",
+      "salary": "6916",
+      "currency": "USD",
+      "on_contract": true,
+      "department": "Engineering",
+      "sub_department": "Devops"
+    },
+    {
+      "name": "Blondy",
+      "salary": "942",
+      "currency": "USD",
+      "on_contract": false,
+      "department": "Engineering",
+      "sub_department": "Aerified"
+    },
+    {
+      "name": "Rhonda",
+      "salary": "9395",
+      "currency": "USD",
+      "on_contract": false,
+      "department": "Engineering",
+      "sub_department": "Devops"
+    },
+    {
+      "name": "Amitie",
+      "salary": "2",
+      "currency": "USD",
+      "on_contract": false,
+      "department": "Engineering",
+      "sub_department": "Pannier"
+    },
+    {
+      "name": "Lelia",
+      "salary": "108",
+      "currency": "USD",
+      "on_contract": false,
+      "department": "Engineering",
+      "sub_department": "Devops"
+    },
+    {
+      "name": "Rozelle",
+      "salary": "14",
+      "currency": "USD",
+      "on_contract": false,
+      "department": "Engineering",
+      "sub_department": "QA"
+    },
+    {
+      "name": "Petronilla",
+      "salary": "16360",
+      "currency": "USD",
+      "on_contract": false,
+      "department": "Engineering",
+      "sub_department": "QA"
+    },
+    {
+      "name": "Nola",
+      "salary": "37",
+      "currency": "USD",
+      "on_contract": true,
+      "department": "Engineering",
+      "sub_department": "QA"
+    },
+    {
+      "name": "Pippa",
+      "salary": "209",
+      "currency": "USD",
+      "on_contract": false,
+      "department": "Engineering",
+      "sub_department": "QA"
+    },
+    {
+      "name": "Madelena",
+      "salary": "16292",
+      "currency": "USD",
+      "on_contract": true,
+      "department": "Engineering",
+      "sub_department": "QA"
+    }
+  ],
+  "user": [
+    {
+      "email": "admin@mail.com",
+      "password": "12345"
+    }
+  ]
+}
