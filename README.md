@@ -121,6 +121,171 @@ _Response (404 - Not Found)_
 }
 ```
 
+## 5. GET /dataperyear
+
+Description:
+
+- Get all employee from database
+
+Request:
+
+- headers:
+
+```json
+{
+  "access_token": "string"
+}
+```
+
+_Response (200 - OK)_
+
+```json
+{
+  "dataMax": [
+    {
+      "max": "integer"
+    }
+  ],
+  "dataMin": [
+    {
+      "min": "integer"
+    }
+  ],
+  "dataMean": [
+    {
+      "AVG": "integer"
+    }
+  ]
+}
+```
+
+## 6. GET /datapersatisfaction
+
+Description:
+
+- Get all employee from database which are on_contract = true
+
+Request:
+
+- headers:
+
+```json
+{
+  "access_token": "string"
+}
+```
+
+_Response (200 - OK)_
+
+```json
+{
+  "dataMax": [
+    {
+      "max": "integer"
+    }
+  ],
+  "dataMin": [
+    {
+      "min": "integer"
+    }
+  ],
+  "dataMean": [
+    {
+      "AVG": "integer"
+    }
+  ]
+}
+```
+
+## 7. GET /dataperdepartment
+
+Description:
+
+- Get all employee from database which are on_contract = true
+
+Request:
+
+- headers:
+
+```json
+{
+  "access_token": "string"
+}
+```
+
+- Query:
+
+```
+department = string
+```
+
+_Response (200 - OK)_
+
+```json
+{
+  "dataMax": [
+    {
+      "max": "integer"
+    }
+  ],
+  "dataMin": [
+    {
+      "min": "integer"
+    }
+  ],
+  "dataMean": [
+    {
+      "AVG": "integer"
+    }
+  ]
+}
+```
+
+## 8. GET /combination
+
+Description:
+
+- Get all employee from database which based on department and sub_department
+
+Request:
+
+- headers:
+
+```json
+{
+  "access_token": "string"
+}
+```
+
+- Query:
+
+```
+department = string
+sub_department =string
+```
+
+_Response (200 - OK)_
+
+```json
+{
+  "dataMax": [
+    {
+      "max": "integer"
+    }
+  ],
+  "dataMin": [
+    {
+      "min": "integer"
+    }
+  ],
+  "dataMean": [
+    {
+      "AVG": "integer"
+    }
+  ]
+}
+```
+
 ## Global Error
 
 _Response (500 - Internal Server Error)_
