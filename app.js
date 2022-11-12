@@ -1,11 +1,12 @@
 const express = require("express");
-const app = express();
-const port = 3000;
 const router = require("./router/index");
-app.use(router);
+const app = express();
+
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(router);
 
+const port = 3000;
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
